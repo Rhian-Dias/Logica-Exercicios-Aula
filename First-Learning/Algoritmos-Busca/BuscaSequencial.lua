@@ -7,8 +7,8 @@ function buscaSequencial(lista, alvo)
     return nil
 end
 
-local minhaLista = {10, 23, 45, 8, 12, 56}
-local itemProcurado = 8
+local minhaLista = {1,2,3,4}
+local itemProcurado = 4
 
 local resultado = buscaSequencial(minhaLista, itemProcurado)
 
