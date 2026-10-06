@@ -29,7 +29,7 @@ def main ():
     resultado = buscaBinaria (lista, chave)
 
     if resultado != -1:
-        print(f"O elemento {chave} está na lista")
+        print(f"O elemento {chave} está na lista, cujo índice é: {resultado}")
     else:
         print(f"O elemento {chave} não está na lista")
 
