@@ -12,6 +12,7 @@ def buscaBinaria(lista, chave):
         else: 
             pos_ini = pos_meio + 1
 
+    return -1
 
 def bubbleSort(lista):
     n = len(lista)
@@ -30,7 +31,7 @@ def main ():
 
         lista.append(elemento)
     
-    bubbleSort(lista)
+    lista = bubbleSort(lista)
 
     chave = int(input("Digite o valor a ser procurado na lista: "))    
 
